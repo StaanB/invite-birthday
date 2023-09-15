@@ -1,0 +1,33 @@
+@use 'card';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(#FE8900, #FE5500);
+    background-repeat: no-repeat;
+    color: #111;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 1024px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+
+    @media (max-width: 640px) {
+        max-width: 80%;
+    }
+
+    @media (max-width: 1024px) {
+        max-width: 90%;
+    }
+}

@@ -1,0 +1,55 @@
+.invite-card{
+    background-color: #FFF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 70rem;
+    height: 35rem;
+    padding: 2rem;
+    border-radius: 2rem;
+
+    &__title{
+        text-transform: uppercase;
+    }
+
+    &__image{
+        width: 50%;
+        border-radius: 2rem;
+    }
+
+    &__texts{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        gap: 2rem;
+
+        h2{
+            text-transform: uppercase;
+        }
+    }
+
+    &__button{
+        padding: 1rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        border-radius: 1rem;
+
+        border: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+
+        background-color: #FE5500;
+        color: #FFF;
+    }
+
+    &__contador{
+        color: #FE5500;
+        text-transform: none;
+    }
+}
